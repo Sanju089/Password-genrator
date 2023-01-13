@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Genrator</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="box">
+      <h1>Generate a <span style="color: #4adf86">random Password</span></h1>
+      <h2>Never use an insecure Password again</h2>
+      <button onclick="generatePass()">Generate password</button>
+      <input
+        type="number"
+        name=""
+        id="length"
+        min="1"
+        max="20"
+        placeholder="Choose length (1-20)"
+      />
+      <hr />
+
+    <div id="passwords">
+      <h3 class="password" id="pass1-el" onclick="copy(1)"></h3>
+      <h3 class="password" id="pass2-el" onclick="copy(2)"></h3>
+    </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
