@@ -95,3 +95,11 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
+@media only screen and (max-width: 600px) {
+    #box {
+      display: inline;
+    }
+    #passwords{
+        display: block;
+    }
+  }
