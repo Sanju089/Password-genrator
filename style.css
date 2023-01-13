@@ -99,8 +99,12 @@ input::-webkit-inner-spin-button {
     #btn {
       display: flex;
       flex-direction: column-reverse;
+      width: fit-content;
     }
     #passwords{
         display: block;
+    }
+    #box{
+        height: 100vh;
     }
   }
